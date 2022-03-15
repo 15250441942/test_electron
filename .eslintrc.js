@@ -22,6 +22,11 @@ module.exports = {
     "import/newline-after-import": 0,
     "no-multi-assign": 0,
     quotes: "off",
+    "no-underscore-dangle": "off",
+    "class-methods-use-this": "off",
+    "arrow-parens": "off",
+    "comma-dangle": "off",
+    "object-curly-newline": "off",
     // allow debugger during development
     "no-debugger": process.env.NODE_ENV === "production" ? 2 : 0,
   },
