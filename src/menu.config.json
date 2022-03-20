@@ -1,0 +1,21 @@
+[
+  {
+    "src": "static/menuBtns/BI.png",
+    "label": "BI",
+    "url": "http://www.baidu.com"
+  },
+  {
+    "label": "Codde",
+    "src": "static/menuBtns/Codee.png",
+    "url": "http://121.43.172.160:8001/#/signin/designer"
+  },
+  { "label": "Fusion", 
+    "src": "static/menuBtns/Fusion.png" ,
+    "url": "http://www.baidu.com"
+  },
+  {
+    "label": "Matrix",
+    "src": "static/menuBtns/Matrix.png",
+    "url": "http://www.baidu.com"
+  }
+]

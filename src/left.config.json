@@ -1,0 +1,40 @@
+[
+  {
+    "src": "static/menuBtns/BI.png",
+    "label": "工单维护",
+    "url": "http://www.baidu.com"
+  },
+  {
+    "label": "供应商发货",
+    "src": "static/menuBtns/Codee.png",
+    "url": "http://121.43.172.160:8001/#/signin/designer"
+  },
+  { "label": "生产日报", 
+    "src": "static/menuBtns/Fusion.png" ,
+    "url": "http://www.baidu.com"
+  },
+  {
+    "label": "沉铜线点检",
+    "src": "static/menuBtns/Matrix.png",
+    "url": "http://www.baidu.com"
+  },
+  {
+    "src": "static/menuBtns/BI.png",
+    "label": "MRP",
+    "url": "http://www.baidu.com"
+  },
+  {
+    "label": "供应商发货",
+    "src": "static/menuBtns/Codee.png",
+    "url": "http://121.43.172.160:8001/#/signin/designer"
+  },
+  { "label": "生产日报", 
+    "src": "static/menuBtns/Fusion.png" ,
+    "url": "http://www.baidu.com"
+  },
+  {
+    "label": "沉铜线点检",
+    "src": "static/menuBtns/Matrix.png",
+    "url": "http://www.baidu.com"
+  }
+]
