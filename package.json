@@ -50,7 +50,10 @@
       "icon": "build/icons/icon.icns"
     },
     "win": {
-      "icon": "build/icons/icon.ico"
+      "icon": "build/icons/256x256.png"
+    },
+    "electronDownload": {
+      "mirror": "https://npm.taobao.org/mirrors/electron/"
     },
     "linux": {
       "icon": "build/icons"
@@ -60,11 +63,17 @@
     "@hscmap/vue-window": "^2.4.4",
     "axios": "^0.18.0",
     "echarts": "^5.3.1",
+    "element-resize-event": "^3.0.6",
     "element-ui": "^2.15.6",
     "lodash": "^4.17.21",
+    "view-design": "^4.7.0",
     "vue": "^2.5.16",
+    "vue-drag-resize": "^1.5.4",
+    "vue-draggable-resizable": "^2.3.0",
     "vue-electron": "^1.0.6",
+    "vue-resize-box": "^1.0.5",
     "vue-router": "^3.0.1",
+    "vuedraggable": "^2.24.3",
     "vuex": "^3.0.1",
     "vuex-electron": "^1.0.0"
   },
@@ -88,7 +97,7 @@
     "del": "^3.0.0",
     "devtron": "^1.4.0",
     "electron": "^4.2.5",
-    "electron-builder": "^21.2.0",
+    "electron-builder": "22.2.0",
     "electron-debug": "^1.5.0",
     "electron-devtools-installer": "^2.2.4",
     "eslint": "^4.19.1",

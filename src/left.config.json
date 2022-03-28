@@ -1,40 +1,40 @@
 [
   {
-    "src": "static/menuBtns/BI.png",
+    "src": "static/leftMenu/1.png",
     "label": "工单维护",
     "url": "http://www.baidu.com"
   },
   {
     "label": "供应商发货",
-    "src": "static/menuBtns/Codee.png",
+    "src": "static/leftMenu/2.png",
     "url": "http://121.43.172.160:8001/#/signin/designer"
   },
   { "label": "生产日报", 
-    "src": "static/menuBtns/Fusion.png" ,
+    "src": "static/leftMenu/3.png" ,
     "url": "http://www.baidu.com"
   },
   {
     "label": "沉铜线点检",
-    "src": "static/menuBtns/Matrix.png",
+    "src": "static/leftMenu/4.png",
     "url": "http://www.baidu.com"
   },
   {
-    "src": "static/menuBtns/BI.png",
+    "src": "static/leftMenu/5.png",
     "label": "MRP",
     "url": "http://www.baidu.com"
   },
   {
-    "label": "供应商发货",
-    "src": "static/menuBtns/Codee.png",
+    "label": "WMS",
+    "src": "static/leftMenu/6.png",
     "url": "http://121.43.172.160:8001/#/signin/designer"
   },
-  { "label": "生产日报", 
-    "src": "static/menuBtns/Fusion.png" ,
+  { "label": "PDCA", 
+    "src": "static/leftMenu/7.png" ,
     "url": "http://www.baidu.com"
   },
   {
-    "label": "沉铜线点检",
-    "src": "static/menuBtns/Matrix.png",
+    "label": "MES",
+    "src": "static/leftMenu/8.png",
     "url": "http://www.baidu.com"
   }
 ]

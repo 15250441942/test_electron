@@ -26,7 +26,8 @@
             type="password"
             placeholder="密码"
             prefix-icon="el-icon-goods"
-            v-model="password">
+            v-model="password"
+            @keyup.enter.native="loginBtn">
           </el-input>
         </el-form-item>
         <!-- 登录按钮 -->
@@ -63,9 +64,10 @@ export default {
 
 </script>
 
-<style scoped>
+<style>
 .login_container {
-  background-image: url("~/static/imgs/login_bg.png");
+  /* background-image: url("~/static/imgs/login_bg.png"); */
+  background-image: url("../../assets/images/login_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -99,6 +101,10 @@ export default {
 .el-button {
   width: 100%;
   border-radius: 20px;
+  color: #FFFFFF;
+}
+span{
+  color: #FFFFFF;
 }
 .message{
   width: 90%;
