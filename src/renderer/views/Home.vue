@@ -194,6 +194,7 @@
             id="main"
             :style="{ width: '300px', height: '200px', marginLeft: '9px' }"
           ></p>
+          <!-- <webview src="http://192.168.0.18:3000/bi/share/link/abf3f51e-6504-48a4-a3b9-7693288803bb?responsive=false&fullScreen=true" :style="{ width: '300px', height: '200px', marginLeft: '9px' }"></webview> -->
         </li>
         <li class="items" id="right-five" :style="{ opacity: '0.81' }">
           <p class="three-icons">
@@ -255,9 +256,11 @@
 </template>
 
 <script>
+// import axios from "axios";
 import elementResizeEvent from "element-resize-event";
 import VueWindowComp from "../components/VueWindowComp";
 import VueResize from "../components/VueResize";
+import Test from "../service/test";
 const menuList = require("../../menu.config.json");
 const leftList = require("../../left.config.json");
 export default {
@@ -282,8 +285,14 @@ export default {
     this.registerEvent();
     this._resize();
     this.myecharts();
+    this.handleInfo();
   },
   methods: {
+    handleInfo() {
+      Test.getAbc('/lck-service/leansight/idoos/api/multi/1036').then((res) => {
+        console.log('res :>> ', res);
+      });
+    },
     registerEvent() {
       elementResizeEvent(this.$refs.layoutRef, this._resize);
     },

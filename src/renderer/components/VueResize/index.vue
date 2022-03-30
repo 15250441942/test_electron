@@ -117,7 +117,15 @@ export default {
       this.be_x = this.$refs.container.$el.style.left;
       this.be_y = this.$refs.container.$el.style.top;
       this.$refs.container.$el.style.top = "100px";
-      this.$refs.container.$el.style.left = `180px+${2000 * ds.length}`;
+      if (ds.length < 2) {
+        this.$refs.container.$el.style.left = `${180 + (580 * ds.length)}px`;
+      } else {
+        this.$refs.container.$el.style.left = `${760 + (70 * (ds.length - 1))}px`;
+      }
+      // this.$refs.container.$el.style.left = "1180px";
+      // this.$refs.container.$el.style.left = `180px+${20 * ds.length}`;
+      // this.$refs.container.$el.style.left = `${180 + (600 * ds.length)}px`;
+      console.log('this.$refs.container.$el.style.left :>> ', this.$refs.wrap.parentElement.querySelectorAll('[minest="true"]'));
       this.$refs.container.$refs.container.style.width = "1000px";
       this.$refs.container.$refs.container.style.height = "1000px";
       console.log("this.$refs.container :>> ", this.$refs.container);

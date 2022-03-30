@@ -35,21 +35,35 @@
           <el-button type="primary" @click="loginBtn">登录</el-button>
         </el-form-item>
       </el-form>
-        
-      
     </div>
-  
+    <div class="settings" ><i class="el-icon-setting" @click="openSettings"></i></div>
+    <SettingsLogin ref="settings"></SettingsLogin>
+    <!-- <el-button type="text" @click="open">点击打开 Message Box</el-button> -->
   </div>
 </template>
 
 <script>
+import SettingsLogin from '../components/SettingsLogin';
 export default {
   data() {
     return {
       username: '',
       password: '',
-      isShow: false
+      isShow: false,
+      ruleForm: {
+        name: '',
+        region: '',
+        date1: '',
+        date2: '',
+        delivery: false,
+        type: [],
+        resource: '',
+        desc: ''
+      }
     };
+  },
+  components: {
+    SettingsLogin
   },
   methods: {
     loginBtn() {
@@ -58,6 +72,9 @@ export default {
       } else {
         this.isShow = true;
       }
+    },
+    openSettings() {
+      this.$refs.settings.open();
     }
   }
 };
@@ -111,4 +128,9 @@ span{
   margin-left: 5%;
   margin-top: 5px;
 }
+.settings{
+  float: right;
+  color: #FFFFFF;
+}
+
 </style>

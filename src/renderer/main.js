@@ -13,6 +13,7 @@ import * as VueWindow from '@hscmap/vue-window';
 import App from './App';
 import router from './router';
 import store from './store';
+// import service from './service';
 
 Vue.use(VueWindow);
 
@@ -22,7 +23,6 @@ Vue.config.productionTip = false;
 Vue.use(ElementUI);
 Vue.prototype.$echarts = echarts;
 Vue.use(ViewUI);
-
 
 /* eslint-disable no-new */
 new Vue({

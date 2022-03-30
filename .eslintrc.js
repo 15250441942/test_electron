@@ -29,6 +29,7 @@ module.exports = {
     "comma-dangle": "off",
     "object-curly-newline": "off",
     "no-undef": "off",
+    'eol-last':"off",
     // allow debugger during development
     "no-debugger": process.env.NODE_ENV === "production" ? 2 : 0,
   },
